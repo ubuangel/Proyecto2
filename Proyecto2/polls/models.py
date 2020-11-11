@@ -1,3 +1,7 @@
+'''En nuestra aplicación de encuestas, crearemos dos modelos: Pregunta y Elección. 
+Una pregunta tiene una pregunta y una fecha de publicación. Una elección tiene dos campos: el texto de la elección y un recuento de votos. 
+Cada opción está asociada con una pregunta.'''
+
 from django.db import models
 
 
