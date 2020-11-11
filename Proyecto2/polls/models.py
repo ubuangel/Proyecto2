@@ -8,7 +8,7 @@ quí, cada modelo está representado por una clase que
  Cada modelo tiene una serie de variables de clase, cada una de las cuales 
 representa un campo de base de datos en el modelo.
 
-
+ojo estamos desde el repositorio local otra cosa djvenv
 '''
 import datetime
 from django.db import models
