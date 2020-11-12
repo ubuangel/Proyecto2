@@ -1,14 +1,14 @@
 
 #empleando urlconfs
 from django.urls import path
-
+#from Proyecto1.views import import index
 from . import views
 
 urlpatterns = [
     # ex: /polls/
-    path('', views.index, name='index'),
+   path('', views.index, name='index'),
     # ex: /polls/5/
-    path('<int:question_id>/', views.detail, name='detail'),
+   path('specifics/<int:question_id>/', views.detail, name='detail'),
     # ex: /polls/5/results/
     path('<int:question_id>/results/', views.results, name='results'),
     # ex: /polls/5/vote/
