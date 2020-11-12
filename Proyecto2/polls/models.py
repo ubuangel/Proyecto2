@@ -7,8 +7,10 @@ quí, cada modelo está representado por una clase que
  es subclase de django.db.models.Model. 
  Cada modelo tiene una serie de variables de clase, cada una de las cuales 
 representa un campo de base de datos en el modelo.
-
-ojo estamos desde el repositorio local otra cosa djvenv
+-------------
+ojo se importo en proyecto del file djvenv estamos desde el repositorio local (file git )
+TAMBIEN 
+eclipse con git ,e crea una carpeta de git donde se apropia del proyecto y lo usa
 '''
 import datetime
 from django.db import models
